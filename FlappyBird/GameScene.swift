@@ -136,6 +136,10 @@ class GameScene: SKScene {
         self.addChild(pipePair)
     }
     
+    func gameOver(){
+        println("Game over!");
+    }
+    
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         /* Called when a (finger) touch begins */
         for touch: AnyObject in touches {
